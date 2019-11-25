@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+    <string name="main_query">The most popular movies of</string>
+    <string name="btn_submit">Submit</string>
+    <string name="loading">loading...</string>
+    <string name="overview">Overview</string>
+    <string name="cd_backdrop">Backdrop</string>
+    <string name="cd_poster">Poster</string>
+</resources>

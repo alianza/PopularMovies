@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    fun hideKeyboard() {
+    private fun hideKeyboard() {
         val imm = applicationContext.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
         imm.hideSoftInputFromWindow(window.decorView.rootView.windowToken, 0)
     }
